@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+    <servlet>
+        <url-pattern>/login.action</url-pattern>
+        <servlet-class>com.lancq.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <url-pattern>/register.action</url-pattern>
+        <servlet-class>com.lancq.RegisterServlet</servlet-class>
+    </servlet>
+</web-app>
